@@ -1,0 +1,179 @@
+.page-content {
+    min-height: 800px;
+
+    &.home-page {
+        overflow: hidden;
+
+        .hero-section {
+            .hero-wrapper {
+                min-height: 80vh;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .container {
+                .hero-content {
+                    width: 65%;
+
+                    .hero-title {
+                        padding-top: 23vh;
+                        color: $color-4;
+                        font-size: 64px;
+                        font-weight: 600;
+                    }
+
+                    .sub-title {
+                        display: flex;
+                        color: $color-1;
+
+                        .hero-redline {
+                            padding: 9px 0px 0px 8px;
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .hero-paragraph {
+                        color: $color-4;
+                    }
+                }
+            }
+
+            .hero-sqaure-box {
+                width: 36%;
+                position: absolute;
+                top: 65%;
+                right: 6%;
+
+                .square-contents {
+                    background-color: $color-13;
+                    padding: 0 10px 60px 10px;
+
+                    .sqaure-title {
+                        display: flex;
+                        padding: 8px 0px 10px 15px;
+
+                        .sqaure-title-h5 {
+                            color: $color-12;
+                            padding: 31px 0px 0px 25px;
+                            font-weight: 500;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .sqaure-paragraph {
+                        color: $color-8;
+                        padding: 0px 0px 0px 26px;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+
+                    .square-redline {
+                        padding: 0px 0px 0px 26px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $color-2;
+                    }
+                }
+            }
+        }
+
+        .featured-case-study-section {
+            padding-top: 90px;
+            .subtitle-case-study {
+                display: flex !important;
+                .subtitle-paragraph {
+                    padding: 10px 0px 0px 4px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: $color-8;
+                }
+            }
+            .featured-main-case-study {
+                width: 46%;
+                .featured-main-case-study-text {
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+            }
+            .read-case-study {
+                position: absolute;
+                top: 161%;
+                right: 74%;
+                .read-case-study-rectangle {
+                    background-color: $color-2;
+                    padding: 2px 86px 1px 8px;
+                    clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+                    .read-case-study-para {
+                        color: $color-13;
+                        margin: 8px;
+                    }
+                }
+            }
+            .case-study-paragrapgh {
+                font-size: 16px;
+                width: 90%;
+                padding-top: 20px;
+                color: $color-8;
+            }
+            .case-study-main-title{
+                font-size: 36px;
+                font-weight: 600;
+                margin: 0;
+            }
+            .case-study-list{
+                 display: flex;
+               .case-study-list-tick{
+                width: 50px;
+               }
+               .case-study-tick-paragraph{
+                   font-size: 16px;
+                   font-weight: 600;
+                   padding-left: 8px;
+                   color: $color-12;
+               }
+            }
+            .case-study-redline{
+                font-size: 18px;
+                color: $color-2;
+                font-weight: 500;
+            }
+        }
+
+        .creating-oppertunities{
+            background-color: $color-7;
+            height: 715px;
+            .title-creating-oppertunities{
+                padding: 50px 0px 17px 0px;
+                .heading-creating-oppertunities{
+                    font-size: 36px;
+                }
+            }
+            .text-creating-oppertunities{
+                width: 60%;
+                margin: 0 auto;
+                .paragraph-creating-oppertunities{
+                    font-size: 16px;
+                    color: $color-8;
+                }
+            }
+        }
+
+        .product-spotlight{
+            .spotlight-container{
+                .spotlight-wrapper{
+                    
+                padding: 78px 0px 0px 64px;
+                    .spotlight-sub-heading{
+                        display: flex;
+                    }
+                    .spotlight-sub-text{
+                        color: wheat;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
